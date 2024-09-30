@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
-    <!-- <script src="script.js"></script> -->
 </head>
 
 <body>
-
-    <script src="script.js"></script>
 
     <div class="main">
         <div class="top">
@@ -22,7 +19,7 @@
                 <input type="number" id="amountSpend" placeholder="Total Amount Spent">
             </div>
             <div class="bttn">
-                <button type="button" id="MileageBtn" onclick="calculateMileage()">Calculate Mileage</button>
+                <button type="button" id="MileageBtn">Calculate Mileage</button>
             </div>
             <div class="output">
                 <div class="mileage" id="mileageOutput">Mileage: 0.00 km/litre</div>
@@ -31,31 +28,21 @@
         <div class="bottom">
             <h1 style="text-align: center;">Vehicle Fuel Spent Calculator</h1>
             <div class="data-2">
-                <input type="number" id="distanceDriven" placeholder="Total Distance Driven (km)">
-                <input type="number" id="fualPrice" placeholder="Avarage Fuel Price/Liter">
-                <input type="number" id="mileage" placeholder="Avarage Mileage">
+                <input type="number" id="distanceDriven1" placeholder="Total Distance Driven (km)">
+                <input type="number" id="fualPrice" placeholder="Average Fuel Price/Liter">
+                <input type="number" id="mileage" placeholder="Average Mileage">
             </div>
             <div class="spent">
-                <button type="button" id="priceBtn" onclick="spentPrice()">Calculate Spent Price</button>
+                <button type="button" id="priceBtn">Calculate Spent Price</button>
             </div>
 
             <div class="output">
                 <div class="price" id="priceOutput">Price: 0 Rs</div>
             </div>
-
         </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
+    <script src="script.js"></script>
 
 </body>
 
