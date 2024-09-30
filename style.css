@@ -77,7 +77,7 @@ button:hover{
     background-color: rgb(40, 40, 44);
     display: flex;
     justify-content: center;
-    margin-left: 33%;
+    margin-left: 40%;
     margin-top:20px ;
     color: #fff;
     font-size: larger;
@@ -136,7 +136,7 @@ button:hover{
     display: flex;
     justify-content: center;
     color: #fff;
-    margin-left: 33%;
+    margin-left: 40%;
     margin-top:20px ;
     font-size: larger;
     width: 350px;
