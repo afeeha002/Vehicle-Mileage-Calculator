@@ -155,7 +155,7 @@ button:hover{
     .data-1 , .data-2{
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
 
     .price, .mileage{
@@ -164,9 +164,12 @@ button:hover{
 
     .top, .bottom{
         width: 98%;
-        height: 48%;
+       min-height: 300px;
         margin: 2%;
+        gap: 1px;
+
     }
+
 }
 
 
