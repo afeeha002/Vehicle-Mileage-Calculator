@@ -167,8 +167,11 @@ button:hover{
        min-height: 300px;
         margin: 2%;
         gap: 1px;
-        padding: 5px;
+        padding: 2px;
 
+    }
+    h1{
+        font-size: medium;
     }
 
 }
