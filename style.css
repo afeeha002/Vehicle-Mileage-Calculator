@@ -9,6 +9,7 @@ body {
     height: 100vh;
     padding: 0%;
     margin: 0%;
+    overflow: hidden;
 
 }
 
@@ -149,3 +150,23 @@ button:hover{
     border-radius: 12px;
     text-align: center;
 }
+
+@media (max-width:500px){
+    .data-1 , .data-2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .price, .mileage{
+        width:250px;
+    }
+
+    .top, .bottom{
+        width: 98%;
+        height: 48%;
+        margin: 2%;
+    }
+}
+
+
